@@ -9,7 +9,7 @@
    ],
    "env":{
       "WEBSOCKET_URL":{
-         "description":"TELETHON STRING"
+         "description":"Userbot herokuapp url"
       },
       "BOT_TOKEN":{
          "description":"BotFather"
