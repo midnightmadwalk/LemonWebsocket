@@ -16,7 +16,7 @@ interface CachedConnection {
     joinResolve?: (value: JoinVoiceCallResponse) => void;
 }
 
-const ws = new WebSocket(`env.WEBSOCKET_URL`);
+const ws = new WebSocket(env.WEBSOCKET_URL);
 const cache = new Map<number, CachedConnection>();
 
 const ffmpegOptions = ['-c', 'copy', '-acodec', 'pcm_s16le', '-f', 's16le', '-ac', '1', '-ar', '65000', 'pipe:1'];
