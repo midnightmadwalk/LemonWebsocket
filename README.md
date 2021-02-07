@@ -1,6 +1,6 @@
 ## yes websocket works fine.
 [you cant play song :D]
-
+[ first run userbot then deploy websocket then restart userbot and websocket ]
 
 ## Credit :
 https://github.com/tgcallsjs/LemonJamsBot
