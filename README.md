@@ -1,5 +1,6 @@
 ## yes websocket works fine.
 [you cant play song :D]
+[FFMPEG BUILD = Failing]
 <br>
 [ first run userbot then deploy websocket then restart userbot and websocket ]
 
