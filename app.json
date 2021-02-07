@@ -1,0 +1,35 @@
+{
+   "name":"WebSocket",
+   "description":"Rock your group",
+   "logo":"",
+   "keywords":[
+      "Telegram",
+      "Bot",
+      "Userbot"
+   ],
+   "env":{
+      "WEBSOCKET_URL":{
+         "description":"TELETHON STRING"
+      },
+      "BOT_TOKEN":{
+         "description":"BotFather"
+      }
+   },
+   "buildpacks":[
+      {
+         "url":"https://github.com/heroku/heroku-buildpack-apt.git"
+      },
+      {
+         "url":"heroku/nodejs"
+      },
+      {
+         "url":"heroku/python"
+      }
+   ],
+   "formation":{
+      "worker":{
+         "quantity":1,
+         "size":"free"
+      }
+   }
+}
