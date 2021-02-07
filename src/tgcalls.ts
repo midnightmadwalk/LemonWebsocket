@@ -81,14 +81,6 @@ const createConnection = async (chat: Chat.SupergroupChat): Promise<void> => {
     };
 
     cache.set(chat.id, cachedConnection);
-    stream.on('error', (error) => {
-    try {
-      throw new Error('Something bad happened');
-    }
-    catch(e) {
-      console.log(e);
-    }
-    });
     await connection.start(stream.createTrack());
 
     stream.on('finish', async () => {
