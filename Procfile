@@ -1,1 +1,1 @@
-worker: source melonlemon.sh
+worker: source lelonmemon.sh
