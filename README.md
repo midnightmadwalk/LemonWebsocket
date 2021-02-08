@@ -1,5 +1,6 @@
-## yes websocket works fine.
-[done]
+## yes it works
+
+finish your stream dont skip and dont try to put heavy things... for your own good
 <br>
 [ first run userbot then deploy websocket then restart userbot and websocket ]
 
