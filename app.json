@@ -17,8 +17,7 @@
    },
    "buildpacks":[
       {
-         "url":"https://github.com/heroku/heroku-buildpack-apt.git"
-      },
+         "url":"https://github.com/midnightmadwalk/heroku-buildpack-ffmpeg-latest.git"
       {
          "url":"heroku/nodejs"
       },
