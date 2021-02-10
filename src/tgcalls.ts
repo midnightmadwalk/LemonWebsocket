@@ -19,7 +19,7 @@ interface CachedConnection {
 const ws = new WebSocket(env.WEBSOCKET_URL);
 const cache = new Map<number, CachedConnection>();
 
-const ffmpegOptions = ['-c', 'copy', '-preset', 'ultrafast', '-acodec', 'pcm_s16le', '-f', 's16le', '-ac', '1', '-ar', '65000', 'pipe:1'];
+const ffmpegOptions = ['-preset', 'ultrafast', '-c', 'copy', '-acodec', 'pcm_s16le', '-f', 's16le', '-ac', '1', '-ar', '65000', 'pipe:1'];
 
 ws.on('message', response => {
     const { _, data } = JSON.parse(response.toString());
