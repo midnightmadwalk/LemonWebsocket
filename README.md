@@ -6,8 +6,6 @@ finish your stream dont skip and dont try to put heavy things... for your own go
 ## a fork of:
 https://github.com/tgcallsjs/LemonJamsBot
 
-[ i just deployed it on heroku x) ]
-
 ### Joke
 <p align="center">
    <a href="https://heroku.com/deploy?template=https://github.com/midnightmadwalk/LemonWebsocket/min">
